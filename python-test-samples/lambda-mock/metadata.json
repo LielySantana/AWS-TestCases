@@ -1,0 +1,30 @@
+{
+    "title": "Test AWS Lambda function handlers locally using mocks",
+    "description": "This project contains unit tests using mocks for a pattern using API Gateway, AWS Lambda, Amazon S3, and Amazon DynamoDB.",
+    "content_language": "English",
+    "language": "Python",
+    "type": ["Unit"],
+    "diagram": "/doc/architecture.png",
+    "framework": "SAM",
+    "services": ["apigw", "lambda", "dynamodb","s3"],
+    "git_repo_url": "https://github.com/aws-samples/serverless-test-samples",
+    "pattern_source": "AWS",
+    "pattern_detail_tabs": [
+        {
+            "title": "Application Code",
+            "filepath": "/src/sample_lambda/app.py"
+        },
+        {
+            "title": "Unit Tests",
+            "filepath": "/tests/unit/src/test_sample_lambda.py"
+        }
+    ],
+    "authors": [
+        {
+          "name": "Tom Romano",
+          "image": "/../img/authors/tom-romano.jpeg",
+          "bio": "Solutions Architect at AWS",
+          "linkedin": "wtromano"
+        }
+    ]
+}

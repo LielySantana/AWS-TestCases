@@ -1,0 +1,34 @@
+{
+  "title": "Testing Lambda with external APIs",
+  "description": "This project shows a technique for testing an AWS Lambda using a mock AWS API Gateway, where there is an external API dependency.",
+  "content_language": "English",
+  "language": "TypeScript",
+  "type": ["Unit", "Integration"],
+  "diagram": "/img/system-under-test.png",
+  "framework": "SAM",
+  "services": ["apigw", "lambda"],
+  "git_repo_url": "https://github.com/aws-samples/serverless-test-samples/tree/main/typescript-test-samples/apigw-lambda-external",
+  "pattern_source": "Customer",
+  "pattern_detail_tabs": [
+    {
+      "title": "Application Code",
+      "filepath": "/src/app.ts"
+    },
+    {
+      "title": "Unit Tests - Mock",
+      "filepath": "/src/tests/unit/test-handler.test.ts"
+    },
+    {
+      "title": "Integration Tests",
+      "filepath": "/src/tests/integration/integration-handler.test.ts"
+    }
+  ],
+  "authors": [
+    {
+      "name": "Mark White",
+      "image": "/../img/authors/mark-white.jpeg",
+      "bio": "Principal Engineer at Dunelm",
+      "linkedin": "mark--white"
+    }
+  ]
+}

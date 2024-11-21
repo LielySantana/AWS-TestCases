@@ -1,0 +1,36 @@
+{
+    "title": "Schema and contract testing for event driven architectures",
+    "description": "This pattern contains example unit tests for schema and contract testing with event driven architectures",
+    "content_language": "English",
+    "language": "Java",
+    "type": [
+        "Unit"
+    ],
+    "diagram": "/img/contract_testing.png",
+    "services": [
+        "eventbridge"
+    ],
+    "git_repo_url": "https://github.com/aws-samples/serverless-test-samples",
+    "pattern_source": "AWS",
+    "pattern_detail_tabs": [
+        {
+            "title": "Schema Tests",
+            "filepath": "/src/test/java/com/example/SchemaTest.java"
+        },
+        {
+            "title": "Contract Test",
+            "filepath": "/src/test/java/com/example/ContractTest.java"
+        }
+    ],
+    "authors": [
+        {
+            "name": "Khairul Habib",
+            "bio": "Senior Solutions Architect at AWS",
+            "image": "/../img/authors/khairul-habib.jpeg",
+            "linkedin": "khairulhabib"
+        }
+    ],
+    "rootFolder": "java-test-samples",
+    "folderName": "schema-and-contract-testing",
+    "path": "java-test-samples/schema-and-contract-testing"
+}

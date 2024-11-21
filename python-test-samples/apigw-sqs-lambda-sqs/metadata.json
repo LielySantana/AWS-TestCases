@@ -1,0 +1,36 @@
+{
+    "title": "Testing API Gateway with Lambda and SQS",
+    "description": "This project contains unit and integration tests for a pattern using API Gateway, AWS Lambda and Amazon SQS.",
+    "content_language": "English",
+    "language": "Python",
+    "type": ["Integration"],
+    "diagram": "/img/architecture.png",
+    "framework": "SAM",
+    "services": ["apigw", "lambda", "sqs"],
+    "git_repo_url": "https://github.com/aws-samples/serverless-test-samples",
+    "pattern_source": "AWS",
+    "pattern_detail_tabs": [
+        {
+            "title": "Application Code",
+            "filepath": "/src/process-input-queue/process_input_queue.py"
+        },
+        {
+            "title": "Integration Test",
+            "filepath": "/tests/integration/test_api_gatway.py"
+        }
+    ],
+    "authors": [
+        {
+            "name": "Yossi Chai",
+            "image": "/../img/authors/yossi-chai.jpeg",
+            "bio": "Senior Solutions Architect at AWS",
+            "linkedin": "yossi-chai"
+        },
+        {
+            "name": "Guy Almog",
+            "image": "/../img/authors/guy-almog.jpeg",
+            "bio": "Senior Solutions Architect at AWS",
+            "linkedin": "guy-almog"
+        }
+    ]
+}

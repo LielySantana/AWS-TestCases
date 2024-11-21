@@ -1,0 +1,35 @@
+{
+  "title": "Typescript: Amazon Api Gateway, AWS Lambda, Amazon DynamoDB Example",
+  "description": "This project contains introductory examples of TypeScript tests written for AWS Lambda.",
+  "content_language": "English",
+  "language": "TypeScript",
+  "type": ["Unit","Integration"],
+  "diagram": "/img/system-under-test.png",
+  "framework": "SAM",
+  "services": ["apigw", "lambda","dynamodb"],
+  "git_repo_url": "https://github.com/aws-samples/serverless-test-samples",
+  "pattern_source": "AWS",
+  "pattern_detail_tabs": [
+      {
+          "title": "Application Code",
+          "filepath": "/src/app.ts"
+      },
+      {
+          "title": "Unit Tests - Mock",
+          "filepath": "/src/tests/unit/test-handler.test.ts"
+      },
+      {
+          "title": "Integration Tests",
+          "filepath": "/src/tests/integration/integ-handler.test.ts"
+      }
+  ],
+  "authors": [
+      {
+        "name": "Debasis Mitra",
+        "image": "/../img/authors/debasis-mitra.jpeg",
+        "bio": "Cloud Application Architect at AWS",
+        "linkedin": "debasis-mitra-201212b",
+        "twitter": "meet_deb"
+      }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "title": "Testing AWS AppSync with Cognito",
+  "description": "This project contains introductory examples of TypeScript tests written for AWS AppSync.",
+  "content_language": "English",
+  "language": "TypeScript",
+  "type": ["Integration"],
+  "diagram": "/images/architecture.png",
+  "framework": "CDK",
+  "services": ["appsync", "lambda", "cognito"],
+  "git_repo_url": "https://github.com/aws-samples/serverless-test-samples",
+  "pattern_source": "Partner",
+  "pattern_source_name": "Aleios",
+  "pattern_detail_tabs": [
+    {
+      "title": "Application Code",
+      "filepath": "/functions/get-random-message/handler.ts"
+    },
+    {
+      "title": "Integration Tests",
+      "filepath": "/tests/integration/integration-handler.test.ts"
+    }
+  ],
+  "authors": [
+    {
+      "name": "Aiden Walton",
+      "image": "/../img/authors/aiden-walton.png",
+      "bio": "Solutions Architect at aleios",
+      "linkedin": "aiden-walton"
+    }
+  ]
+}

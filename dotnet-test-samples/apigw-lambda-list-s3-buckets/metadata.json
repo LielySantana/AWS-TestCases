@@ -1,0 +1,39 @@
+{
+    "title": "API Gateway with Lambda and S3",
+    "description": "This project contains unit and integration tests for a pattern using API Gateway, AWS Lambda and Amazon DynamoDB.",
+    "content_language": "English",
+    "language": ".NET",
+    "type": ["Unit", "Integration"],
+    "diagram": "/img/apigw-lambda-list-s3-buckets.png",
+    "git_repo_url": "https://github.com/aws-samples/serverless-test-samples",
+    "framework": "SAM",
+    "services": ["apigw", "lambda", "s3"],
+    "pattern_source": "AWS",
+    "pattern_detail_tabs": [
+        {
+            "title": "Application Code",
+            "filepath": "/src/ServerlessTestSamples/Function.cs"
+        },
+        {
+            "title": "Unit Tests - Mock Business Logic",
+            "filepath": "/tests/ServerlessTestSamples.UnitTest/MockBusinessLogicTests.cs"
+        },
+        {
+            "title": "Unit Tests - Mock SDK",
+            "filepath": "/tests/ServerlessTestSamples.UnitTest/MockSdkTests.cs"
+        },
+        {
+            "title": "Integration Test",
+            "filepath": "/tests/ServerlessTestSamples.IntegrationTest/IntegrationTest.cs"
+        }        
+    ],
+    "authors": [
+        {
+          "name": "James Eastham",          
+          "image": "/../img/authors/james-eastham.png",
+          "bio": "Senior Cloud Architect at AWS",
+          "linkedin": "james-eastham",
+          "twitter": "plantpowerjames"
+        }        
+    ]
+}

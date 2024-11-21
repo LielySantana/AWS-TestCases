@@ -1,0 +1,31 @@
+{
+    "title": "Asynchronous Integration Test with Lambda Event Listener and DynamoDB",
+    "description": "This project used a test harness to perform integration testing of an asynchonous AWS Lambda handler.",
+    "content_language": "English",
+    "language": ".NET",
+    "type": ["Integration"],
+    "diagram": "/img/s3-lambda-s3.png",
+    "framework": "SAM",
+    "services": ["s3", "lambda", "dynamodb"],
+    "git_repo_url": "https://github.com/aws-samples/serverless-test-samples",
+    "pattern_source": "AWS",
+    "pattern_detail_tabs": [
+        {
+            "title": "Application Code",
+            "filepath": "/src/AsyncTesting.S3EventHandler/Function.cs"
+        },
+        {
+            "title": "Integration Test",
+            "filepath": "/tests/AsyncTesting.IntegrationTest/TextTransformerE2ETest.cs" 
+        }
+    ],
+    "authors": [
+        {
+          "name": "James Eastham",
+          "image": "/../img/authors/james-eastham.png",
+          "bio": "Senior Cloud Architect at AWS",
+          "linkedin": "james-eastham",
+          "twitter": "plantpowerjames"
+        }
+    ]
+}

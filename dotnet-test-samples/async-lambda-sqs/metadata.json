@@ -1,0 +1,50 @@
+{
+    "title": "Asynchronous tests with Lambda and SQS",
+    "description": "This project shows how to test an asynchronous serverless workflow that triggers a Lambda function with SQS",
+    "content_language": "English",
+    "language": ".NET",
+    "type": [
+        "Unit",
+        "Integration",
+        "End to end"
+    ],
+    "diagram": "/img/s3-lambda-sqs.png",
+    "git_repo_url": "https://github.com/aws-samples/serverless-test-samples",
+    "pattern_source": "AWS",
+    "framework": "SAM",
+    "services": [
+        "s3",
+        "lambda",
+        "sqs"
+    ],
+    "pattern_detail_tabs": [
+        {
+            "title": "Application Code Example (GetStock Functions)",
+            "filepath": "/src/S3Notifications/Function.cs"
+        },
+        {
+            "title": "Unit Tests",
+            "filepath": "/tests/S3Notifications.UnitTests/FunctionTest.cs"
+        },
+        {
+            "title": "Integration Tests",
+            "filepath": "/tests/S3Notifications.IntegrationTests/FunctionTest.cs"
+        },
+        {
+            "title": "End to End Tests",
+            "filepath": "/tests/S3Notifications.E2ETests/FunctionTest.cs"
+        }
+    ],
+    "authors": [
+        {
+            "name": "Dror Helper",
+            "image": "/../img/authors/dror-helper.jpeg",
+            "bio": "Senior Specialist Solution Architect at AWS",
+            "linkedin": "drorhelper",
+            "twitter": "dhelper"
+        }
+    ],
+    "rootFolder": "dotnet-test-samples",
+    "folderName": "async-lambda-sqs",
+    "path": "dotnet-test-samples/async-lambda-sqs"
+}

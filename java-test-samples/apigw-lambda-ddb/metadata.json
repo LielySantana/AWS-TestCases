@@ -1,0 +1,51 @@
+{
+    "title": "API Gateway with Lambda and DynamoDB",
+    "description": "This project contains unit, integration, and load tests for a pattern using API Gateway, AWS Lambda and Amazon DynamoDB.",
+    "content_language": "English",
+    "language": "Java",
+    "type": ["Unit", "Integration", "Load"],
+    "diagram": "/docs/TicketTopology.png",
+    "framework": "SAM",
+    "services": ["apigw", "lambda", "dynamodb"],
+    "git_repo_url": "https://github.com/aws-samples/serverless-test-samples",
+    "pattern_source": "AWS",
+    "pattern_detail_tabs": [
+        {
+            "title": "Application Code",
+            "filepath": "/TicketsFunction/src/main/java/com/example/TicketFunction.java"
+        },
+        {
+            "title": "Unit Tests",
+            "filepath": "/TicketsFunction/src/test/java/com/example/TicketFunctionMockTest.java"
+        },
+        {
+            "title": "Integration Test",
+            "filepath": "/TicketsFunction/src/test/java/com/example/TicketFunctionIntegrationTest.java"
+        },
+        {
+          "title": "Load Test",
+          "filepath": "/load-test/run-load-tests-dynamic-data.sh"
+        }
+    ],
+    "authors": [
+        {
+          "name": "Dhiraj Mahapatro",
+          "image": "/../img/authors/dhiraj-mahapatro.jpg",
+          "bio": "Principal Specialist Solutions Architect at AWS",
+          "linkedin": "dmahapatro",
+          "twitter": "dhirajmahapatro"
+        },
+        {
+          "name": "Rahul Popat",
+          "image": "/../img/authors/rahul-popat.jpeg",
+          "bio": "Senior Specialist Solutions Architect at AWS",
+          "linkedin": "rahulpopat"
+        },
+        {
+          "name": "Aneel Murari",
+          "image": "/../img/authors/aneel-murari.jpeg",
+          "bio": "Senior Specialist Solutions Architect at AWS",
+          "linkedin": "aneelmurari"
+        }
+    ]
+}

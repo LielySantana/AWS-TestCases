@@ -1,0 +1,35 @@
+{
+    "title": "API Gateway with Lambda and DynamoDB",
+    "description": "This project contains unit and integration tests for a pattern using API Gateway, AWS Lambda and Amazon DynamoDB.",
+    "content_language": "English",
+    "language": ".NET",
+    "type": ["Unit", "Integration"],
+    "diagram": "/img/apigw-lambda-ddb.jpg",
+    "git_repo_url": "https://github.com/aws-samples/serverless-test-samples",
+    "framework": "SAM",
+    "services": ["apigw", "lambda", "dynamodb"],
+    "pattern_source": "AWS",
+    "pattern_detail_tabs": [
+        {
+            "title": "Application Code Example (GetProduct)",
+            "filepath": "/src/GetProduct/Function.cs"
+        },
+        {
+            "title": "Unit Tests",
+            "filepath": "/tests/ApiTests.UnitTest/FunctionTest.cs"
+        },
+        {
+            "title": "Integration Test",
+            "filepath": "/tests/ApiTests.IntegrationTest/IntegrationTest.cs"
+        }        
+    ],
+    "authors": [
+        {
+          "name": "James Eastham",          
+          "image": "/../img/authors/james-eastham.png",
+          "bio": "Senior Cloud Architect at AWS",
+          "linkedin": "james-eastham",
+          "twitter": "plantpowerjames"
+        }        
+    ]
+}

@@ -1,0 +1,39 @@
+{
+    "title": "Python Starter Project",
+    "description": "This project contains automated test sample code samples for serverless applications written in Python.",
+    "content_language": "English",
+    "language": "Python",
+    "type": ["Unit","Integration"],
+    "diagram": "/img/xray.png",
+    "framework": "SAM",
+    "services": ["apigw", "lambda","dynamodb"],
+    "git_repo_url": "https://github.com/aws-samples/serverless-test-samples",
+    "pattern_source": "AWS",
+    "pattern_detail_tabs": [
+        {
+            "title": "Application Code",
+            "filepath": "/src/app.py"
+        },
+        {
+            "title": "Unit Tests - Emulator",
+            "filepath": "/tests/unit/local_emulator_test.py"
+        },
+        {
+            "title": "Unit Tests - Mock",
+            "filepath": "/tests/unit/mock_test.py"
+        },
+        {
+            "title": "Integration Tests",
+            "filepath": "/tests/integration/test_api_gateway.py"
+        }
+    ],
+    "authors": [
+        {
+            "name": "Dan Fox",
+            "image": "/../img/authors/dan-fox.jpeg",
+            "bio": "Principal Solutions Architect at AWS",
+            "linkedin": "danfoxprofile",
+            "twitter": "danfox"
+        }
+    ]
+}
